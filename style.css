@@ -1,0 +1,521 @@
+
+body{margin:0px;padding:0px;border:0px;height:760px}
+.container0{ width:100%;HEIGHT:100%;background-color:#79d70f;}
+.container1{ width:100%;HEIGHT:120%;background-color:#79d70f;}
+.container2{ width:100%;HEIGHT:2322px;background-color:#79d70f;}
+.container5{ width:100%;HEIGHT:1322px;background-color:#79d70f;}
+.container6{ width:100%;HEIGHT:1322px;background-color:#79d70f;}
+
+.container3{ width:100%;HEIGHT:1000px;background-color:#79d70f;}
+.container4{ width:100%;HEIGHT:872px;background-color:#79d70f;}
+
+.logo{width:90%;HEIGHT:60%; position: absolute; TOP:140PX;left:20px;margin-left: 0px;padding:0px;}
+.border1{border-style: double;border-color: red;border-width: 10px;}
+.border2{border-style: double;border-color: red;border-width: 10px;position: relative;top:680px;}
+.border4{border-style: double;border-color: red;border-width: 10px;position: relative;top:500px; margin:0px;}
+.border7{border-style: double;border-color: red;border-width: 10px;position: relative;top:330px; margin:0px;}
+.border8{border-style: double;border-color: red;border-width: 10px;position: relative;top:290px; margin:0px;}
+.border9{border-style: double;border-color: red;border-width: 10px;position: relative;top:285px; margin:0px;}
+.border10{border-style: double;border-color: red;border-width: 10px;position: relative;top:420px; margin:0px;}
+.border11{border-style: double;border-color: red;border-width: 10px;position: relative;top:565px; margin:0px;}
+
+.border6{border-style: double;border-color: red;border-width: 10px;position: relative;top:420px; margin:0px;}
+.border3{border-style: double;border-color: red;border-width: 10px;position: relative;top:275px; margin:0px;}
+#back{z-index: 1;text-decoration: none;font-family: sans-serif; display:inline-block;position:absolute;font-size: 30px;color:red;top:550px;left:200px;font-weight: bolder;border-style: solid;padding-left: 19px;padding-right:19px;border-radius: 100PX;}
+#back:hover{background-color: red}
+#back2{ text-decoration: none;font-family: sans-serif; display:inline-block;position:absolute;font-size: 30px;color:red;top:75px;left:20px;font-weight: bolder;border-style: solid;padding-left: 19px;padding-right:19px;border-radius: 100PX;}
+#back2:hover{background-color: yellow}
+#back7{z-index: 1;text-decoration: none;font-family: sans-serif; display:inline-block;position:absolute;font-size: 30px;color:red;top:850px;left:200px;font-weight: bolder;border-style: solid;padding-left: 19px;padding-right:19px;border-radius: 100PX;}
+.PPP{position: absolute;color: RED;left: 20px;font-weight: bold;}
+.PPP2{position: absolute;color: RED;left: 20px;font-weight: bold;}
+
+
+#menu{text-decoration: none;font-family: sans-serif; display: inline-block;position: relative;font-size: 30px;color:red;top:50px;left:20px;font-weight: bolder;border-style: solid;padding-left: 19px;padding-right:19px;}
+#close{ text-decoration: none;font-family: sans-serif; display:none;position:absolute;font-size: 30px;color:red;top:70px;left:20px;font-weight: bolder;border-style: solid;padding-left: 19px;padding-right:19px;border-radius: 100PX;}
+#close2{ text-decoration: none;font-family: sans-serif; display:none;position:absolute;font-size: 30px;color:red;top:70px;left:20px;font-weight: bolder;border-style: solid;padding-left: 19px;padding-right:19px;border-radius: 100PX;}
+#llamar{text-decoration: none;font-family: sans-serif; display: inline-block;position: relative;font-size: 30px;color:red;top:50px;left:75px;font-weight: bolder;border-style: solid;}
+#menu:hover{background-color: yellow}
+#close:hover{background-color: yellow}
+#close2:hover{background-color: yellow}
+
+#llamar:hover{background-color: yellow}
+#content{display:block;position: absolute;background-color:yellow;width: 310px;height: 50px;left: 20px;top: 120px; opacity:0%;border-style:double;;border-width: 7px; border-color:red; border-radius: 5%;
+  transition: height 1.3s;
+}
+#contact{ z-index: 1;display:inline-block;position: absolute;background-color:yellow;width: 0px;height: 0px;left: 15px;top: 120px; opacity:0%;border-style:double;;border-width: 7px; border-color:red; border-radius: 5%;transition: height 1.3s;}
+
+#kebab{display: block;width:0px;height:0px; position:relative; left: 30px; top:50px;transition: height 1s;padding: 0px;margin: 0px;}
+#falafel{display: block;width:0px;height:0px; position:relative; left: 20px; top:50px;transition:height 1.5s;}
+#pizza{display: block;width:0px;height:0px; position:relative; left: 30px; top:50px;transition: height 2.2s;}
+#burger{ display: block;width:0px;height:0px; position:relative; left: 30px; top:50px;transition: height 2.7s;}
+#btnleft{ color: red;display:inline-block;width:20px;height:30px; position:absolute; left: 40px; top:650px;}
+#btnleft1{color: red;display:none;width:20px;height:30px; position:absolute; left: 40px; top:650px;}
+#btnleft2{ display:none;width:20px;height:30px; position:absolute; left: 40px; top:650px;}
+#btnleft3{ display:none;width:20px;height:30px; position:absolute; left: 40px; top:650px;}
+#btnleft4{ display:none;width:20px;height:30px; position:absolute; left: 40px; top:650px;}
+
+#btnright1{ display:none;width:20px;height:30px; position:absolute; left: 300px; top:650px;}
+#btnright3{ display:none;width:20px;height:30px; position:absolute; left: 300px; top:650px;}
+
+#frame1{border-style:dashed;border-width: 2px;border-radius: 10%;border-color: red;position:absolute; display: inline-block;width:220px;height: 110px; top:595px;text-align: center;left:68px;margin:0px;padding-top:20px;}
+#res1{position: relative; width: 200px;height:120px;top: -13.5px;border-radius:10%;left:-2px;opacity: 70%;display: inline-block;transition: width 1s;}
+#res2{position: absolute; width: 0px;height:120px;top: -13.5px;border-radius:10%;left:200px;opacity: 80%;display: inline-block;float: left; top: 5px;transition: width 1s;}
+#res3{position: absolute; width: 0px;height:120px;top: -13.5px;border-radius:10%;left:200px;opacity: 100%;display: inline-block;float: left; top: 5px;transition: width 1s;}
+#res4{position: absolute; width: 0px;height:120px;top: -13.5px;border-radius:10%;left:200px;opacity: 100%;display: inline-block;float: left; top: 5px;transition: width 1s;}
+#res5{position: absolute; width: 0px;height:120px;top: -13.5px;border-radius:10%;left:200px;opacity: 100%;display: inline-block;float: left; top: 5px;transition: width 1s;}
+
+#btnright2{ display:none;width:20px;height:30px; position:absolute; left: 300px; top:650px;}
+
+#btnright{ display: none;width:20px;height:30px; position:absolute; left: 300px; top:650px;}
+
+#btnright{
+	opacity: 0;
+	animation-name: btnright;
+	animation-iteration-count: 1000;
+	animation-timing-function:ease-in;
+	animation-duration: 2s;
+  animation-delay: 0.3s;
+}
+
+@keyframes btnright {
+    0%,100% { opacity: 0 }
+    50% { opacity: 1 }
+	}
+
+#btnleft{
+	opacity: 0;
+	animation-name: btnleft;
+	animation-iteration-count: 1000;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+  animation-delay: 0.5s;
+}
+
+@keyframes btnleft {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+	}
+
+#llamar{
+	opacity: 1;
+	animation-name: llamar;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes llamar{
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#menu{
+	opacity: 1;
+	animation-name: menu;
+	animation-iteration-count: 1;
+	animation-timing-function:ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes menu {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#close{
+	opacity: 1;
+	animation-name: close;
+	animation-iteration-count: 1;
+	animation-timing-function:ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes close {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#back{
+	opacity: 1;
+	animation-name: back;
+	animation-iteration-count: 1;
+	animation-timing-function:ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes back {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#close2{
+	opacity: 1;
+	animation-name: close2;
+	animation-iteration-count: 1;
+	animation-timing-function:ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes close2 {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#frame0{position: absolute;background-color: none;}
+#frame1{
+	opacity: 1;
+	animation-name: frame1;
+	animation-iteration-count: 1;
+	animation-timing-function:ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes frame1 {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#comida1{; text-decoration: none;
+	opacity: 1;
+	animation-name: comida1;
+	animation-iteration-count: 1;
+	animation-timing-function:ease-in;
+	animation-duration:2.3s;
+  display: none;
+}
+
+@keyframes comida1 {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#comida2{;display: none;; text-decoration: none;
+	opacity: 1;
+	animation-name: comida2;
+	animation-iteration-count: 1;
+	animation-timing-function:ease-in;
+	animation-duration: 2.6s;
+}
+
+@keyframes comida2 {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#comida3{display: none;; text-decoration: none;
+	opacity: 1;
+	animation-name: comida3;
+	animation-iteration-count: 1;
+	animation-timing-function:ease-in;
+	animation-duration: 2.9s;
+}
+
+@keyframes comida3 {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#comida4{display: none;; text-decoration: none;
+	opacity: 1;
+	animation-name: comida4;
+	animation-iteration-count: 1;
+	animation-timing-function:ease-in;
+	animation-duration: 3.1s;
+}
+
+@keyframes comida4 {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#comida5{display: none;; text-decoration: none;
+	opacity: 1;
+	animation-name: comida5;
+	animation-iteration-count: 1;
+	animation-timing-function:ease-in;
+	animation-duration: 3.4s;
+}
+
+@keyframes comida5 {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#comida6{display: none;; text-decoration: none;
+	opacity: 1;
+	animation-name: comida6;
+	animation-iteration-count: 1;
+	animation-timing-function:ease-in;
+	animation-duration: 3.7s;
+}
+
+@keyframes comida6 {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#comida7{display: none;; text-decoration: none;
+	opacity: 1;
+	animation-name: comida7;
+	animation-iteration-count: 1;
+	animation-timing-function:ease-in;
+	animation-duration: 4s;
+}
+
+@keyframes comida7 {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#comida8{display: none; text-decoration: none; font-family:
+	opacity: 1;
+	animation-name: comida8;
+	animation-iteration-count: 1;
+	animation-timing-function:ease-in;
+	animation-duration: 4.3s;
+}
+
+@keyframes comida8 {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#comida{display: none; text-decoration: none;
+	opacity: 1;
+	animation-name: comida;
+	animation-iteration-count: 1;
+	animation-timing-function:ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes comida {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#contact0{display: none; text-decoration: none;
+	opacity: 1;
+	animation-name: contact0;
+	animation-iteration-count: 1;
+	animation-timing-function:ease-in;
+	animation-duration: 0.8s;
+}
+
+@keyframes contact0 {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#contact1{display: none; text-decoration: none;
+	opacity: 1;
+	animation-name: contact1;
+	animation-iteration-count: 1;
+	animation-timing-function:ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes contact1 {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#contact2{ text-decoration: none;
+	opacity: 1;
+	animation-name: contact2;
+	animation-iteration-count: 1;
+	animation-timing-function:ease-in;
+	animation-duration:1.5s;
+  display: none;
+}
+
+@keyframes contact2 {
+	0% {
+		opacity: 0;
+	}{}
+	100% {
+		opacity: 1;
+	}
+}
+#contact3{display: none;; text-decoration: none;
+	opacity: 1;
+	animation-name: contact3;
+	animation-iteration-count: 1;
+	animation-timing-function:ease-in5
+	animation-duration: 2s;
+}
+
+@keyframes contact3 {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+.ppp{
+	opacity: 0;
+	animation-name: ppp;
+	animation-iteration-count: 100000000;
+	animation-timing-function:ease;
+	animation-duration: 7s;
+  animation-delay:0s;
+}
+
+@keyframes ppp{
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+  100% {
+    opacity: 0;
+  }
+}
+.ppp2{
+	opacity: 0;
+	animation-name: ppp2;
+	animation-iteration-count: 100000000;
+	animation-timing-function:ease;
+	animation-duration: 7s;
+  animation-delay: 4s;
+}
+
+@keyframes ppp2{
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+  100% {
+    opacity: 0;
+  }
+}
+h1{font-weight:bolder;font-size: 20px;text-align:right;position:relative;left: -10px;line-height: 12px;top:20px;color:red;opacity: 100%; font-style:italic;font-family:sans-serif;}
+h1:hover{ text-decoration: underline;font-size:23.5px;font-style: normal;}
+
+h2{font-weight:bolder;font-size: 18px;text-align:right;position:relative;left: -5px;line-height: 12px;top:20px;color:red;opacity: 100%; font-style:italic;font-family: sans-serif;}
+h2:hover{ ;text-decoration: underline;font-size:21px;font-style: normal;}
+h3{font-weight:bolder;font-size: 20px;text-align:right;position:relative;left: -5px;line-height: ;top:20px;color:#45046a;opacity: 100%; font-style:italic;font-family: sans-serif,arial;z-index:1;margin:0px;text-align: right; padding: 0px;}
+h3:hover{ ;text-decoration: underline;font-size:25px;font-style: normal;}
+.kebabbig{position: absolute; opacity: 60% ;width:600px;height:600px;top:50px;z-index:0;right:20px;}
+.burgerbig{,padding-left: 0px;margin-left: 0px;position: absolute; opacity: 60% ;width:600px;height:600px;top:50px;z-index:0;right:0px;}
+.burgerbig3{padding-left: 0px;margin-left: 0px;position: absolute; opacity: 60% ;width:300px;height:200px;top:2000px;z-index:0;right:20px;}
+.burgerbig5{,padding-left: 0px;margin-left: 0px;position: absolute; opacity: 60% ;width:300px;height:200px;top:970px;z-index:0;right:20px;}
+.burgerbig6{,padding-left: 0px;margin-left: 0px;position: absolute; opacity: 60% ;width:300px;height:200px;top:930px;z-index:0;right:20px;}
+
+.burgerbig2{,padding-left: 0px;margin-left: 0px;position: absolute; opacity: 60% ;width:300px;height:200px;top:630px;z-index:0;right:20px;}
+#maps{z-index:1;position: absolute;width:300px;height: 100px;bottom:40px;display: none}
+/*@media only screen and (min-width:768px){
+  .logo {
+    width: 45%;
+    HEIGHT: 95%;
+    position: absolute;
+    TOP: 20PX;
+    left: 20px;
+    margin-left: 0px;
+    padding: 0px;}
+    #frame1 {
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 10%;
+    border-color: red;
+    position: absolute;
+    display: inline-block;
+    width: 420px;
+    height: 250px;
+    top: 250px;
+    text-align: center;
+    left: 700px;
+    margin: 0px;
+    padding-top: 20px;}
+    #menu {
+    text-decoration: none;
+    font-family: sans-serif;
+    display: inline-block;
+    position: relative;
+    font-size: 40px;
+    color: red;
+    top: 50px;
+    left: 700px;
+    font-weight: bolder;
+    border-style: solid;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+#llamar {
+    text-decoration: none;
+    font-family: sans-serif;
+    display: inline-block;
+    position: relative;
+    font-size: 40px;
+    color: red;
+    top: 50px;
+    left:750px;
+    font-weight: bolder;
+    border-style: solid;}
+
+    .border2 {
+    border-style: double;
+    border-color: red;
+    border-width: 10px;
+    position: relative;
+    top: 670px;
+}*/
+
+
+}
