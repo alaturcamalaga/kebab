@@ -41,8 +41,10 @@
 
 
 <div id="sec4">
-  <img id="shop1" src="shop1.png" alt="">
-  <img id="shop2" src="shop2.png" alt="">
+  <img id="shop1" src="shop2.png" alt="">
+  <img id="shop2" src="shop1.png" alt="">
+  <img id="oferta" src="oferta.png" alt="">
+
 
 </div>
 
@@ -438,6 +440,7 @@
   <img id="call"src="call.png" alt="">
   <img id="maps"src="maps.png" alt="">
 
+
 </div>
 <div id="sec7">
   <img id="whats1"src="whats.png" alt="">
@@ -449,6 +452,20 @@
 
 </div>
 <script type="text/javascript">
+function boton() {
+  var scrolly=document.querySelector('#container1')
+   lx=scrollY
+   console.log(lx);
+if(lx>"1200"){
+  document.getElementById('sec5').style.opacity="0.2";
+}
+else {
+  document.getElementById('sec5').style.opacity="1";
+
+}
+}
+setInterval(boton,0.1)
+
 function pageScroll() {
   if (mx4.matches) {
 
@@ -1761,7 +1778,6 @@ function changeopacity2(){
 function scrollmx(){
   var scrolly=document.querySelector('#container1')
    gx=scrollY
-   console.log(lx);
 if(gx>"500"){
   document.getElementById('whats1').style.width="32%";
   document.getElementById('call1').style.width="27%";
@@ -1793,17 +1809,17 @@ function scroll(){
    lx=scrollY
    console.log(lx);
 if(lx>"810"){
-  document.getElementById('whats').style.width="32%";
-  document.getElementById('call').style.width="27%";
-  document.getElementById('maps').style.width="27%";
-  document.getElementById('whats').style.opacity="1";
-  document.getElementById('call').style.opacity="1";
-  document.getElementById('maps').style.opacity="1";
-  document.getElementById('call').style.opacity="1";
-  document.getElementById('maps').style.opacity="1";
-  document.getElementById('whats').style.transform="rotate(1080deg)";
-  document.getElementById('call').style.transform="rotate(1080deg)";
-  document.getElementById('maps').style.transform="rotate(1080deg)";
+   document.getElementById('oferta').style.width="100%";
+  // document.getElementById('call').style.width="27%";
+  // document.getElementById('maps').style.width="27%";
+   document.getElementById('oferta').style.opacity="1";
+  // document.getElementById('call').style.opacity="1";
+  // document.getElementById('maps').style.opacity="1";
+  // document.getElementById('call').style.opacity="1";
+  // document.getElementById('maps').style.opacity="1";
+   document.getElementById('oferta').style.transform="rotate(1080deg)";
+  // document.getElementById('call').style.transform="rotate(1080deg)";
+  // document.getElementById('maps').style.transform="rotate(1080deg)";
   document.getElementById('shop1').style.opacity="1";
   document.getElementById('shop1').style.borderRadius="0%";
   document.getElementById('shop2').style.opacity="1";
@@ -1816,15 +1832,15 @@ if(lx>"810"){
 
 }
 else if(lx<"554"&&lx>"330"){
-  document.getElementById('whats').style.width="0%";
-  document.getElementById('call').style.width="0%";
-  document.getElementById('maps').style.width="0%";
-  document.getElementById('whats').style.opacity="0%";
-  document.getElementById('call').style.opacity="0%";
-  document.getElementById('maps').style.opacity="0%";
-  document.getElementById('whats').style.transform="rotate(0deg)";
-  document.getElementById('call').style.transform="rotate(0deg)";
-  document.getElementById('maps').style.transform="rotate(0deg)";
+   document.getElementById('oferta').style.width="0%";
+  // document.getElementById('call').style.width="0%";
+  // document.getElementById('maps').style.width="0%";
+   document.getElementById('oferta').style.opacity="0%";
+  // document.getElementById('call').style.opacity="0%";
+  // document.getElementById('maps').style.opacity="0%";
+   document.getElementById('oferta').style.transform="rotate(0deg)";
+  // document.getElementById('call').style.transform="rotate(0deg)";
+  // document.getElementById('maps').style.transform="rotate(0deg)";
   document.getElementById('pizza').style.width="43%";
   document.getElementById('kebabplato').style.width="75%";
   document.getElementById('falafel').style.width="69%";
@@ -1849,15 +1865,15 @@ else if(lx<"554"&&lx>"330"){
 
 }
 else if(lx<"810"&&lx>"554"){
-  document.getElementById('whats').style.width="0%";
-  document.getElementById('call').style.width="0%";
-  document.getElementById('maps').style.width="0%";
-  document.getElementById('whats').style.opacity="0%";
-  document.getElementById('call').style.opacity="0%";
-  document.getElementById('maps').style.opacity="0%";
-  document.getElementById('whats').style.transform="rotate(0deg)";
-  document.getElementById('call').style.transform="rotate(0deg)";
-  document.getElementById('maps').style.transform="rotate(0deg)";
+   document.getElementById('oferta').style.width="0%";
+  // document.getElementById('call').style.width="0%";
+  // document.getElementById('maps').style.width="0%";
+   document.getElementById('oferta').style.opacity="0%";
+  // document.getElementById('call').style.opacity="0%";
+  // document.getElementById('maps').style.opacity="0%";
+   document.getElementById('oferta').style.transform="rotate(0deg)";
+  // document.getElementById('call').style.transform="rotate(0deg)";
+  // document.getElementById('maps').style.transform="rotate(0deg)";
   document.getElementById('pizza').style.width="43%";
   document.getElementById('kebabplato').style.width="75%";
   document.getElementById('falafel').style.width="69%";
@@ -1875,15 +1891,15 @@ else if(lx<"810"&&lx>"554"){
 
 
 else if(lx<"330"){
-  document.getElementById('whats').style.width="0%";
-  document.getElementById('call').style.width="0%";
-  document.getElementById('maps').style.width="0%";
-  document.getElementById('whats').style.opacity="0%";
-  document.getElementById('call').style.opacity="0%";
-  document.getElementById('maps').style.opacity="0%";
-  document.getElementById('whats').style.transform="rotate(0deg)";
-  document.getElementById('call').style.transform="rotate(0deg)";
-  document.getElementById('maps').style.transform="rotate(0deg)";
+   document.getElementById('oferta').style.width="0%";
+  // document.getElementById('call').style.width="0%";
+  // document.getElementById('maps').style.width="0%";
+   document.getElementById('oferta').style.opacity="0%";
+  // document.getElementById('call').style.opacity="0%";
+  // document.getElementById('maps').style.opacity="0%";
+   document.getElementById('oferta').style.transform="rotate(0deg)";
+  // document.getElementById('call').style.transform="rotate(0deg)";
+  // document.getElementById('maps').style.transform="rotate(0deg)";
   document.getElementById('pizza').style.width="0%";
   document.getElementById('kebabplato').style.width="0%";
   document.getElementById('falafel').style.width="0%";
